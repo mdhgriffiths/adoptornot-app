@@ -21,6 +21,8 @@ Boilerplate code for a React application.
 |  |     └─ index.js
 |  ├─ public
 |  |  └─ favicon.ico
+|  ├─ routes
+|  |  └─ index.js
 |  └─ views
 |     └─ index.pug
 ├── .babrlrc
