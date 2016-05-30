@@ -18,7 +18,7 @@ const config = {
             dev ? 'react-hot-loader/patch' : false,
             dev ? `webpack-dev-server/client?${url}` : false,
             dev ? 'webpack/hot/only-dev-server' : false,
-            path.resolve(srcDir, 'index.js')
+            path.resolve(srcDir, 'app.js')
         ].filter(v => !!v)
     },
     output: {
