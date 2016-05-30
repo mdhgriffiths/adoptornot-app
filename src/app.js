@@ -1,24 +1,24 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './components/App';
 import { AppContainer } from 'react-hot-loader';
+import { Router, hashHistory } from 'react-router';
+import routes from './routes';
 const app = document.getElementById('app');
 
 window.onload = () => {
     render(
         <AppContainer>
-            <App />
+            <Router history={hashHistory} routes={routes} />
         </AppContainer>,
         app
     );
 };
 
 if (module.hot) {
-    module.hot.accept('./components/App', () => {
-        const NextApp = require('./components/App').default; // eslint-disable-line global-require
+    module.hot.accept('./routes', () => {
         render(
             <AppContainer>
-                <NextApp />
+                <Router history={hashHistory} routes={require('./routes')} />
             </AppContainer>,
             app
         );
