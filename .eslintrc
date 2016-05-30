@@ -1,0 +1,10 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": [2, 4, { "SwitchCase": 1, "VariableDeclarator": 1 }],
+        "react/jsx-indent": [2, 4],
+        "comma-dangle": 0,
+        "eol-last": 0
+    }
+}
