@@ -167,6 +167,9 @@ body {
 .card {
     color: #373a3c;
     text-shadow: none;
+}
+
+.card-adopt {
     max-width: 500px;
 }
 

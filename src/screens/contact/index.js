@@ -1,8 +1,7 @@
 export default ({}) => (
-    <div>
-        <h2>Contact</h2>
-        <p>Let us know how we're doing.</p>
-        <form>
+    <div className="card center-block">
+        <h3 className="card-header">How are we doing?</h3>
+        <form className="card-block">
             <fieldset className="form-group">
                 <label htmlFor="fld-fromName">What is your name?</label>
                 <input id="fld-fromName" className="form-control" name="fromName" placeholder="Your name..." required />
@@ -18,10 +17,12 @@ export default ({}) => (
                 <textarea id="fld-theMessage" className="form-control" name="theMessage" placeholder="Your message..." rows="4" required />
                 <small className="text-muted">Send your suggestions, comments or concerns.</small>
             </fieldset>
-            <div className="checkbox">
-                <label><input type="checkbox" name="optIn" value="1" /> Sure, you can send me updates &amp; stuff.</label>
-                <br /><small className="text-muted">We might have important things to say.</small>
-            </div>
+            <fieldset className="form-group">
+                <div className="checkbox">
+                    <label><input type="checkbox" name="optIn" value="1" /> Sure, you can send me updates &amp; stuff.</label>
+                    <br /><small className="text-muted">We might have important things to say.</small>
+                </div>
+            </fieldset>
             <button type="submit" className="btn btn-primary">
                 <i className="fa fa-envelope-o" aria-hidden="true" /> Send Email
             </button>

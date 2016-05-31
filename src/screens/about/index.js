@@ -1,8 +1,8 @@
 export default ({}) => (
     <div>
-        <div className="card center-block">
+        <div className="card card-adopt center-block">
             <h3 className="card-header">Find adoptable pets.</h3>
-            <img className="img-fluid" src="http://placekitten.com/g/500/500" alt="" />
+            <img className="img-fluid" src="http://placekitten.com/750/750" alt="" />
             <div className="card-block">
                 <p className="card-text">
                     Swipe through profiles of adoptable pets in your area.
