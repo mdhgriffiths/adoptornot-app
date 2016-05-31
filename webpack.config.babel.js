@@ -38,6 +38,10 @@ const config = {
             { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader' },
             { test: /\.pug$/, exclude: /node_modules/, loader: 'pug-html-loader' },
             {
+                test: /\.css$/,
+                exclude: /node_modules/,
+                loader: 'style-loader!css-loader!postcss-loader'
+            }, {
                 test: /\.(jpg|jpeg|gif|png)$/,
                 exclude: /node_modules/,
                 loader: 'url-loader?limit=1024&name=images/[name].[ext]'
