@@ -46,6 +46,7 @@
     },
     "scripts": {
         "prebuild": "rimraf dist",
+        "postinstall": "npm run build",
         "build": "cross-env NODE_ENV=production webpack --progress --colors",
         "start": "cross-env NODE_ENV=development webpack --progress --colors --watch",
         "lint": "eslint *.js src"
