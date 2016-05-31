@@ -1,6 +1,11 @@
 # AdoptOrNot App
 React-powered interface for the [Adopt or Not API](https://github.com/mdhgriffiths/adoptornot-api).
 
+![adoptornot-app](https://cloud.githubusercontent.com/assets/326682/15665136/ef1656d2-26bd-11e6-9b99-31d52b62b198.png)
+
+***This is a work is progress and is under development.***
+
+
 ## Installation
 
 ```
