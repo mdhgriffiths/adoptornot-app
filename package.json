@@ -1,6 +1,6 @@
 {
-    "name": "react-boiler-app",
-    "description": "My React App Boilerplate",
+    "name": "adoptornot-app",
+    "description": "Adopt or Not",
     "version": "1.0.0",
     "license": "MIT",
     "private": true,
@@ -9,8 +9,8 @@
         "react-dom": "~15.0.2",
         "react-redux": "~4.4.5",
         "react-router": "~2.4.1",
-        "redux": "~3.5.2",
-        "redux-router": "~1.0.0-beta8"
+        "redux-router": "~1.0.0-beta8",
+        "redux": "~3.5.2"
     },
     "devDependencies": {
         "cross-env": "~1.0.7",
