@@ -11,7 +11,7 @@ const App = ({ children }) => (
                         <nav className="nav nav-masthead">
                             <Link className="nav-link" activeClassName="active" to="/" onlyActiveOnIndex>Home</Link>
                             <Link className="nav-link" activeClassName="active" to="/about">About</Link>
-                            <Link className="nav-link" activeClassName="active" to="/conact">Contact</Link>
+                            <Link className="nav-link" activeClassName="active" to="/contact">Contact</Link>
                             <a className="btn btn-primary btn-sm m-l-2" href="#/connect" title="Log in with Facebook">
                                 <i className="fa fa-facebook" aria-hidden="true" />
                             </a>
