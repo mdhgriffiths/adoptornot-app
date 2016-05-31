@@ -53,6 +53,9 @@ const config = {
         ]
     },
     plugins: [
+        new webpack.ProvidePlugin({
+            'React': 'react'
+        }),
         new webpack.DefinePlugin({
             __DEV__: env === 'development',
             'process.env': { NODE_ENV: JSON.stringify(env) }
