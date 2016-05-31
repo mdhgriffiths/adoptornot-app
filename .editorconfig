@@ -7,3 +7,9 @@ indent_style = space
 insert_final_newline = false
 trim_trailing_whitespace = true
 end_of_line = lf
+
+[*.{js,css}]
+quote_type = single
+
+[*.html]
+quote_type = double
