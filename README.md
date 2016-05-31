@@ -1,5 +1,11 @@
-# React Boilerplate
-Boilerplate code for a React application.
+# AdoptOrNot App
+React-powered interface for the [Adopt or Not API](https://github.com/mdhgriffiths/adoptornot-api).
+
+## Installation
+
+```
+npm install
+```
 
 ## Dependencies
 
