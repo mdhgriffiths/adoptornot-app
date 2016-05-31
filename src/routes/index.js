@@ -12,9 +12,6 @@ export default {
             path: 'contact',
             component: require('../screens/contact')
         }, {
-            path: 'connect',
-            component: require('../screens/connect')
-        }, {
             path: '*',
             component: require('../components/NotFound')
         }]
